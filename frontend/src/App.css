@@ -1,0 +1,169 @@
+.App {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+body::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom right, rgb(0, 13, 255), rgb(255, 0, 0)); 
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+nav{
+  padding: 10px 20px;
+  display: flex;
+}
+h2{
+  margin: 0;
+  background: linear-gradient(to top right, blue, rgb(255, 51, 204)); 
+  -webkit-background-clip: text; 
+  color: transparent;
+  color: linear-gradient(to top right, blue, rgb(255, 51, 204));
+}
+.conta{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: linear-gradient(to top right,rgb(1, 17, 236),rgb(255, 0, 85));
+  padding: 20px 0px;
+}
+
+.ancor{
+  display: flex;
+  gap: 20px;
+}
+
+span{
+  font-size: 20px;
+  color: white;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-box h1,p{
+  margin: 0;
+  color: white;
+}
+
+.input{
+  display: flex;
+  gap: 5px;
+}
+
+input{
+  width: 400px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+
+button{
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  background-color: rgb(21, 181, 21);
+  cursor: pointer;
+}
+
+h3{
+  color: red;
+}
+
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px;
+  width: 600px;
+  margin: 40px auto;
+}
+
+.img{
+  height: 350px;
+  width: 230px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 2px;
+  transition: 0.4s ease;
+}
+
+
+.column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 300px;
+  justify-content: space-around;
+  
+}
+
+.title {
+  color: black;
+  font-weight: 600;
+  text-align: left;
+  width: 300px;
+  height: 110px; /* Change height to auto for text wrapping */
+  overflow-wrap: break-word; /* Wrap words when they reach the container width */
+  overflow-y: auto;
+}
+
+/* Customize scrollbar */
+.title::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+.title::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 4px
+}
+
+.title::-webkit-scrollbar-thumb:hover {
+  background-color: #555; 
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(to bottom right, rgb(1, 17, 236), rgb(255, 0, 85));
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 40px;
+  width: 150px;
+  border-radius: 10px;
+  transition: 0.4s ease; /* Defined transition for the background property */
+}
+
+.more{
+  width: 600px;
+  border: 2px solid teal;
+  background-color: teal;
+  font-size: 20px;
+  transition: 0.4s ease;
+}
+.more:hover{
+  color: teal;
+  background: white;
+}
+
+
+
+
+
+
